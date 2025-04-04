@@ -1,27 +1,48 @@
-### 🧠 Starting Point: Log mood input
-
-**What to ask yourself:**
-- How do I ask a user a question in Python?
-- How do I take their answer and store it?
 
 ---
 
-**Start with:**
+### Starting Points: Mood Tracker Challenge
 
-```python
-mood = input("How are you feeling today?")
-print(mood)  # test that it's working
-If you want to offer choices, show them as a numbered menu and store the input as a number:
+If you're stuck on a specific objective, here's a small nudge and a topic you can explore to move forward.
 
+---
 
-print("1. Happy\n2. Sad\n3. Stressed")
-choice = int(input("Choose your mood: "))
-Study terms:
+#### 1️⃣ Log the user's mood (e.g., "happy", "sad", "stressed")
 
-input()
+🧠 **Hint:**  
+You'll need a way to ask the user for input and store their answer.
 
-print()
+📚 **Topic to research:**  
+[`input()` function in Python](https://docs.python.org/3/library/functions.html#input)
 
-int()
+---
 
-if/else
+#### 2️⃣ Track how many times each mood has been logged
+
+🧠 **Hint:**  
+You need a way to store labeled data that can be updated over time.
+
+📚 **Topic to research:**  
+[Python dictionaries](https://docs.python.org/3/tutorial/datastructures.html#dictionaries) and how to update values
+
+---
+
+#### 3️⃣ View mood statistics
+
+🧠 **Hint:**  
+You need to access and display the stored data in a readable way.
+
+📚 **Topic to research:**  
+Looping through dictionaries and basic output formatting
+
+---
+
+#### 4️⃣ Loop until user chooses to exit
+
+🧠 **Hint:**  
+You'll want your main menu to repeat until the user says to stop.
+
+📚 **Topic to research:**  
+[`while` loops](https://docs.python.org/3/tutorial/controlflow.html#while-statements) and control flow in Python
+
+---
