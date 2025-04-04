@@ -6,8 +6,22 @@
 
 ---
 
-**TL;DR: Start with:**
+**Start with:**
 
 ```python
 mood = input("How are you feeling today?")
 print(mood)  # test that it's working
+If you want to offer choices, show them as a numbered menu and store the input as a number:
+
+
+print("1. Happy\n2. Sad\n3. Stressed")
+choice = int(input("Choose your mood: "))
+Study terms:
+
+input()
+
+print()
+
+int()
+
+if/else
